@@ -1,0 +1,6 @@
+create database agriculture;
+use agriculture;
+create table reg(name varchar(50),pass varchar(50),utype varchar(20),email varchar(50),mobile varchar(20),addr varchar(200)); 
+create table login(name varchar(50),pass varchar(50),utype varchar(20));
+create table request(uname varchar(50),product varchar(50),cost varchar(10),address varchar(200),email varchar(50),mobile varchar(20));
+create table response(dealer varchar(50),customer varchar(50),product varchar(50),cost varchar(10),response varchar(50));
